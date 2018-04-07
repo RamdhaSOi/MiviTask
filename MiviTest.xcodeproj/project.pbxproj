@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB30CD6920774D5700957AAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD6820774D5700957AAC /* AppDelegate.swift */; };
+		AB30CD6B20774D5700957AAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD6A20774D5700957AAC /* ViewController.swift */; };
+		AB30CD6E20774D5700957AAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB30CD6C20774D5700957AAC /* Main.storyboard */; };
+		AB30CD7020774D5800957AAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB30CD6F20774D5800957AAC /* Assets.xcassets */; };
+		AB30CD7320774D5800957AAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB30CD7120774D5800957AAC /* LaunchScreen.storyboard */; };
+		AB30CD7E20774D5800957AAC /* MiviTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD7D20774D5800957AAC /* MiviTestTests.swift */; };
+		AB30CD8920774D5800957AAC /* MiviTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD8820774D5800957AAC /* MiviTestUITests.swift */; };
+		AB30CD972077514E00957AAC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD962077514E00957AAC /* Constants.swift */; };
+		AB30CD9B207752D100957AAC /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CD9A207752D100957AAC /* UserInfoViewController.swift */; };
+		AB30CD9E2077560A00957AAC /* collection.json in Resources */ = {isa = PBXBuildFile; fileRef = AB30CD9D2077560A00957AAC /* collection.json */; };
+		AB30CDA12077603800957AAC /* JsonHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB30CDA02077603800957AAC /* JsonHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB30CD7A20774D5800957AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB30CD5D20774D5700957AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB30CD6420774D5700957AAC;
+			remoteInfo = MiviTest;
+		};
+		AB30CD8520774D5800957AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB30CD5D20774D5700957AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB30CD6420774D5700957AAC;
+			remoteInfo = MiviTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB30CD6520774D5700957AAC /* MiviTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiviTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB30CD6820774D5700957AAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB30CD6A20774D5700957AAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB30CD6D20774D5700957AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB30CD6F20774D5800957AAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB30CD7220774D5800957AAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB30CD7420774D5800957AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB30CD7920774D5800957AAC /* MiviTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiviTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB30CD7D20774D5800957AAC /* MiviTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiviTestTests.swift; sourceTree = "<group>"; };
+		AB30CD7F20774D5800957AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB30CD8420774D5800957AAC /* MiviTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiviTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB30CD8820774D5800957AAC /* MiviTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiviTestUITests.swift; sourceTree = "<group>"; };
+		AB30CD8A20774D5800957AAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB30CD962077514E00957AAC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB30CD9A207752D100957AAC /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		AB30CD9D2077560A00957AAC /* collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = collection.json; sourceTree = "<group>"; };
+		AB30CDA02077603800957AAC /* JsonHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonHandler.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB30CD6220774D5700957AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD7620774D5800957AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD8120774D5800957AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB30CD5C20774D5700957AAC = {
+			isa = PBXGroup;
+			children = (
+				AB30CD6720774D5700957AAC /* MiviTest */,
+				AB30CD7C20774D5800957AAC /* MiviTestTests */,
+				AB30CD8720774D5800957AAC /* MiviTestUITests */,
+				AB30CD6620774D5700957AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB30CD6620774D5700957AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD6520774D5700957AAC /* MiviTest.app */,
+				AB30CD7920774D5800957AAC /* MiviTestTests.xctest */,
+				AB30CD8420774D5800957AAC /* MiviTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB30CD6720774D5700957AAC /* MiviTest */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD6820774D5700957AAC /* AppDelegate.swift */,
+				AB30CD6A20774D5700957AAC /* ViewController.swift */,
+				AB30CD9A207752D100957AAC /* UserInfoViewController.swift */,
+				AB30CDA22077A40700957AAC /* Utils */,
+				AB30CD9C207755E200957AAC /* Storyboard */,
+				AB30CD9F2077561A00957AAC /* Resource Files */,
+			);
+			path = MiviTest;
+			sourceTree = "<group>";
+		};
+		AB30CD7C20774D5800957AAC /* MiviTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD7D20774D5800957AAC /* MiviTestTests.swift */,
+				AB30CD7F20774D5800957AAC /* Info.plist */,
+			);
+			path = MiviTestTests;
+			sourceTree = "<group>";
+		};
+		AB30CD8720774D5800957AAC /* MiviTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD8820774D5800957AAC /* MiviTestUITests.swift */,
+				AB30CD8A20774D5800957AAC /* Info.plist */,
+			);
+			path = MiviTestUITests;
+			sourceTree = "<group>";
+		};
+		AB30CD9C207755E200957AAC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD6C20774D5700957AAC /* Main.storyboard */,
+				AB30CD7120774D5800957AAC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		AB30CD9F2077561A00957AAC /* Resource Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD6F20774D5800957AAC /* Assets.xcassets */,
+				AB30CD7420774D5800957AAC /* Info.plist */,
+				AB30CD9D2077560A00957AAC /* collection.json */,
+			);
+			path = "Resource Files";
+			sourceTree = "<group>";
+		};
+		AB30CDA22077A40700957AAC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AB30CD962077514E00957AAC /* Constants.swift */,
+				AB30CDA02077603800957AAC /* JsonHandler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB30CD6420774D5700957AAC /* MiviTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB30CD8D20774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTest" */;
+			buildPhases = (
+				AB30CD6120774D5700957AAC /* Sources */,
+				AB30CD6220774D5700957AAC /* Frameworks */,
+				AB30CD6320774D5700957AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiviTest;
+			productName = MiviTest;
+			productReference = AB30CD6520774D5700957AAC /* MiviTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB30CD7820774D5800957AAC /* MiviTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB30CD9020774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTestTests" */;
+			buildPhases = (
+				AB30CD7520774D5800957AAC /* Sources */,
+				AB30CD7620774D5800957AAC /* Frameworks */,
+				AB30CD7720774D5800957AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB30CD7B20774D5800957AAC /* PBXTargetDependency */,
+			);
+			name = MiviTestTests;
+			productName = MiviTestTests;
+			productReference = AB30CD7920774D5800957AAC /* MiviTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB30CD8320774D5800957AAC /* MiviTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB30CD9320774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTestUITests" */;
+			buildPhases = (
+				AB30CD8020774D5800957AAC /* Sources */,
+				AB30CD8120774D5800957AAC /* Frameworks */,
+				AB30CD8220774D5800957AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB30CD8620774D5800957AAC /* PBXTargetDependency */,
+			);
+			name = MiviTestUITests;
+			productName = MiviTestUITests;
+			productReference = AB30CD8420774D5800957AAC /* MiviTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB30CD5D20774D5700957AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ramdhas;
+				TargetAttributes = {
+					AB30CD6420774D5700957AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					AB30CD7820774D5800957AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB30CD6420774D5700957AAC;
+					};
+					AB30CD8320774D5800957AAC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AB30CD6420774D5700957AAC;
+					};
+				};
+			};
+			buildConfigurationList = AB30CD6020774D5700957AAC /* Build configuration list for PBXProject "MiviTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB30CD5C20774D5700957AAC;
+			productRefGroup = AB30CD6620774D5700957AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB30CD6420774D5700957AAC /* MiviTest */,
+				AB30CD7820774D5800957AAC /* MiviTestTests */,
+				AB30CD8320774D5800957AAC /* MiviTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB30CD6320774D5700957AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB30CD7320774D5800957AAC /* LaunchScreen.storyboard in Resources */,
+				AB30CD7020774D5800957AAC /* Assets.xcassets in Resources */,
+				AB30CD6E20774D5700957AAC /* Main.storyboard in Resources */,
+				AB30CD9E2077560A00957AAC /* collection.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD7720774D5800957AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD8220774D5800957AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB30CD6120774D5700957AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB30CD6B20774D5700957AAC /* ViewController.swift in Sources */,
+				AB30CDA12077603800957AAC /* JsonHandler.swift in Sources */,
+				AB30CD9B207752D100957AAC /* UserInfoViewController.swift in Sources */,
+				AB30CD6920774D5700957AAC /* AppDelegate.swift in Sources */,
+				AB30CD972077514E00957AAC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD7520774D5800957AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB30CD7E20774D5800957AAC /* MiviTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB30CD8020774D5800957AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB30CD8920774D5800957AAC /* MiviTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB30CD7B20774D5800957AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB30CD6420774D5700957AAC /* MiviTest */;
+			targetProxy = AB30CD7A20774D5800957AAC /* PBXContainerItemProxy */;
+		};
+		AB30CD8620774D5800957AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB30CD6420774D5700957AAC /* MiviTest */;
+			targetProxy = AB30CD8520774D5800957AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB30CD6C20774D5700957AAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB30CD6D20774D5700957AAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB30CD7120774D5800957AAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB30CD7220774D5800957AAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB30CD8B20774D5800957AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB30CD8C20774D5800957AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB30CD8E20774D5800957AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = "$(SRCROOT)/MiviTest/Resource Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB30CD8F20774D5800957AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = "$(SRCROOT)/MiviTest/Resource Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB30CD9120774D5800957AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = MiviTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiviTest.app/MiviTest";
+			};
+			name = Debug;
+		};
+		AB30CD9220774D5800957AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = MiviTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiviTest.app/MiviTest";
+			};
+			name = Release;
+		};
+		AB30CD9420774D5800957AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = MiviTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiviTest;
+			};
+			name = Debug;
+		};
+		AB30CD9520774D5800957AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WLMEFEM44;
+				INFOPLIST_FILE = MiviTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mivi.MiviTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MiviTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB30CD6020774D5700957AAC /* Build configuration list for PBXProject "MiviTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB30CD8B20774D5800957AAC /* Debug */,
+				AB30CD8C20774D5800957AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB30CD8D20774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB30CD8E20774D5800957AAC /* Debug */,
+				AB30CD8F20774D5800957AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB30CD9020774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB30CD9120774D5800957AAC /* Debug */,
+				AB30CD9220774D5800957AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB30CD9320774D5800957AAC /* Build configuration list for PBXNativeTarget "MiviTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB30CD9420774D5800957AAC /* Debug */,
+				AB30CD9520774D5800957AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB30CD5D20774D5700957AAC /* Project object */;
+}
